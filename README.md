@@ -7,7 +7,7 @@ The example application is a simple http server, the code for which is based on 
 
 To install this cartridge on OpenShift: 
 
-	rhc app create cmake https://raw.githubusercontent.com/developercorey/openshift-cpp-cartridge/master/metadata/manifest.yml
+	rhc app create cmake https://raw.githubusercontent.com/openshift-cartridges/openshift-cpp-cartridge/master/metadata/manifest.yml
 	
 This command will then clone the code to your local machine.  You can then update the code, git add, git commit, and git push.  
 The code will be compiled on the server and run!
